@@ -27,11 +27,14 @@ nav ul {
 
 nav li {
   list-style: none;
-  color: purple ;
   font-size: 18px;
   padding: 0 6px;
   border-radius: 100%;
   font-weight: 800;
+}
+
+nav li a{
+  color: purple;
 }
 
 body {
@@ -42,6 +45,10 @@ body {
 .spacer{
 	 width: 100%;
     height: 95px;
+}
+
+.margin{
+  margin-left: 50px;
 }
 
 .search {
@@ -72,7 +79,7 @@ margin-bottom: 8px;
 
 input {
 	 width:200px;
-	 height:20px;
+	 height:30px;
 	 font-size: 16px;
   vertical-align: bottom;
 }
@@ -116,7 +123,9 @@ body li {
 	bottom-padding: 10px;
 }
 
-ul a {text-decoration: none; 
+ul a {
+  text-decoration: none; 
+  color: blue;
 }
 
 
