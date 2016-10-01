@@ -22,6 +22,7 @@ nav ul {
   position: absolute;
   display: inline-block;
   right: 10px;
+  top: -30px;
   }
 
 nav li {
