@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+}
+
+nav {
+top: 0;
+  left: 0;
+  right: 0;
+background-color:  #EEEEEE;
+position: fixed;
+width: 100%;
+font-family: Arial;
+padding: 10px;
+height: 40px;
+border-bottom: 1px solid grey;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+nav ul {
+  list-style: none;
+  position: absolute;
+  display: inline-block;
+  right: 10px;
+  }
+
+nav li {
+  list-style: none;
+  color: purple ;
+  font-size: 18px;
+  padding: 0 6px;
+  border-radius: 100%;
+  font-weight: 800;
+}
+
+body {
+  margin: 0; 
+  font-family: "Roboto", sans-serif;
+}
+
+.spacer{
+	 width: 100%;
+    height: 95px;
+}
+
+.search {
+font-family: "Roboto", sans-serif;
+  width: 400px;
+  padding: 0 5px 0 8px;
+  float: center;
+  margin-bottom: 30px;
+}
+
+.label {
+display: block;
+margin-bottom: 8px;
+}
+
+.searchbar {
+	display: inline;
+}
+
+.search button {
+  font-size: 17px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  float; right;
+}
+
+input {
+	 width:200px;
+	 height:20px;
+	 font-size: 16px;
+  vertical-align: bottom;
+}
+
+.magnifying-glass {
+  height: 100%;
+  float; right;
+}
+
+.pages {
+display: inline-block;
+  margin-bottom: 30px;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+
+.pages-button {
+  font-size: 16px;
+  display: inline-block;
+  padding: 8px 15px;
+  border-radius: 3px;
+}
+
+.pages-display {
+	font-size: 16px;
+  padding: 0 30px;
+  padding: 8px 25px;
+  border-left: 1px solid #DDDDDD;
+  border-right: 1px solid #DDDDDD;
+}
+
+body ul {
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  color: gray;
+
+}
+
+body li {
+	margin: 20px 0;
+	bottom-padding: 10px;
+}
+
+ul a {text-decoration: none; 
+}
+
+
